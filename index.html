@@ -221,6 +221,58 @@ footer{text-align:center;color:#777;font-size:11px;padding:25px 0}
   padding:10px 8px calc(10px + env(safe-area-inset-bottom));
  }
 }
+
+/* FIX WARNA TOMBOL VIDEO DI FACEBOOK BROWSER */
+.ctrl,
+.trending-ctrl,
+.gallery-video-control {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  background: #171717 !important;
+  background-color: #171717 !important;
+  color: #ffffff !important;
+  border: 1px solid #666 !important;
+  box-shadow: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  forced-color-adjust: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* IKON TOMBOL TETAP PUTIH */
+.ctrl,
+.trending-ctrl,
+.gallery-video-control {
+  font-weight: 900 !important;
+  text-shadow: none !important;
+}
+
+/* TOMBOL PLAY DI TENGAH */
+.center-play-btn,
+.trending-center-play,
+.gallery-center-play {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  color: #111111 !important;
+  background: #ff9d00 !important;
+  border: 2px solid #ffffff !important;
+  forced-color-adjust: none !important;
+}
+
+/* WARNA TOMBOL SAAT DITEKAN */
+.ctrl:active,
+.trending-ctrl:active,
+.gallery-video-control:active {
+  background: #333333 !important;
+  color: #ffffff !important;
+}
+
+/* PASTIKAN TAMPILAN TIDAK DIUBAH MODE GELAP OTOMATIS */
+html,
+body {
+  color-scheme: dark;
+}
+
 </style>
 </head>
 
